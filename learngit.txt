@@ -4,4 +4,16 @@ pwd	//当前路径
 git init	//初始化库
 git add 文件名称.后缀		//把文件添加到版本库
 git commit -m "注释"	//把文件提交到仓库
+
+
+//修改文件后随时掌握仓库当前动态
+git status
+
+//生成ssh key
+ssh-keygen -t rsa -C "1532985974@qq.com"
+
+//连接到远程库
+git remote add origin git@github.com:1532985974@qq.com/learngit.git
+
+//推送到远程库
 git push -u origin master
