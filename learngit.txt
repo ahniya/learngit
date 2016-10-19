@@ -1,0 +1,7 @@
+mkdir 仓库名称	//创建库
+cd 仓库名称	//到库下面
+pwd	//当前路径
+git init	//初始化库
+git add 文件名称.后缀		//把文件添加到版本库
+git commit -m "注释"	//把文件提交到仓库
+git push -u origin master
